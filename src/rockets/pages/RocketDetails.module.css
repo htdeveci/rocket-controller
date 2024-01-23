@@ -1,0 +1,8 @@
+.buttonsContainer {
+  display: flex;
+  gap: 16px;
+}
+
+.areaContainer {
+  border-bottom: 1px solid gray;
+}

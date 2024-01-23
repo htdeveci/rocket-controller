@@ -1,0 +1,18 @@
+.container {
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.header {
+  color: black;
+  font-size: 2rem;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #242424;
+}
+
+.rocketsPanel {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

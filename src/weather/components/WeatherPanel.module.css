@@ -1,0 +1,41 @@
+.panelContainer {
+  position: fixed;
+  width: 500px;
+  right: -440px;
+  z-index: 1;
+  overflow-x: hidden;
+  transition: 0.3s;
+  display: flex;
+  align-items: center;
+  top: 50%;
+  transform: translate(0%, -50%);
+}
+
+.openWeatherPanel {
+  right: 0px;
+}
+
+.weatherContainer {
+  background-color: rgb(165, 165, 165);
+  border-radius: 20px 0 0 20px;
+  flex: 1;
+  padding: 10px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.toggleButton {
+  width: 50px;
+  height: 200px;
+  background-color: rgb(10, 88, 134);
+  border-radius: 20px 0 0 20px;
+  cursor: pointer;
+  display: flex;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.toggleButtonText {
+  text-transform: uppercase;
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  font-weight: bold;
+}

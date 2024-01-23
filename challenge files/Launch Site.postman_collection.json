@@ -1,0 +1,292 @@
+{
+	"info": {
+		"_postman_id": "33967c9c-2b46-4dac-8765-7782de549949",
+		"name": "Launch Site",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Rockets",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/rockets",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"rockets"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Rockets",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-api-key",
+								"value": "API_KEY_1",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{url}}/rockets",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"rockets"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": null,
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": \"DSSvW7VLmb\",\n        \"model\": \"Saturn V\",\n        \"mass\": 2970000,\n        \"payload\": {\n            \"description\": \"test\",\n            \"weight\": 1542\n        },\n        \"telemetry\": {\n            \"host\": \"0.0.0.0\",\n            \"port\": 4000\n        },\n        \"status\": \"deployed\",\n        \"timestamps\": {\n            \"launched\": null,\n            \"deployed\": null\n        },\n        \"altitude\": 0,\n        \"speed\": 0,\n        \"acceleration\": 0,\n        \"thrust\": 35100000,\n        \"temperature\": 0\n    },\n    {\n        \"id\": \"9bAWNaUUHz\",\n        \"model\": \"Atlas V\",\n        \"mass\": 333000,\n        \"payload\": {\n            \"description\": \"test\",\n            \"weight\": 1109\n        },\n        \"telemetry\": {\n            \"host\": \"0.0.0.0\",\n            \"port\": 4001\n        },\n        \"status\": \"deployed\",\n        \"timestamps\": {\n            \"launched\": null,\n            \"deployed\": null\n        },\n        \"altitude\": 0,\n        \"speed\": 0,\n        \"acceleration\": 0,\n        \"thrust\": 3827000,\n        \"temperature\": 0\n    },\n    {\n        \"id\": \"JJbBjCSmc4\",\n        \"model\": \"Falcon 9.1\",\n        \"mass\": 505846,\n        \"payload\": {\n            \"description\": \"test\",\n            \"weight\": 923\n        },\n        \"telemetry\": {\n            \"host\": \"0.0.0.0\",\n            \"port\": 4002\n        },\n        \"status\": \"deployed\",\n        \"timestamps\": {\n            \"launched\": null,\n            \"deployed\": null\n        },\n        \"altitude\": 0,\n        \"speed\": 0,\n        \"acceleration\": 0,\n        \"thrust\": 5885000,\n        \"temperature\": 0\n    },\n    {\n        \"id\": \"6T5NK8dVft\",\n        \"model\": \"Starship\",\n        \"mass\": 150000,\n        \"payload\": {\n            \"description\": \"test\",\n            \"weight\": 986\n        },\n        \"telemetry\": {\n            \"host\": \"0.0.0.0\",\n            \"port\": 4003\n        },\n        \"status\": \"deployed\",\n        \"timestamps\": {\n            \"launched\": null,\n            \"deployed\": null\n        },\n        \"altitude\": 0,\n        \"speed\": 0,\n        \"acceleration\": 0,\n        \"thrust\": 59730000,\n        \"temperature\": 0\n    },\n    {\n        \"id\": \"B4LXk9mWaR\",\n        \"model\": \"Delta IV Heavy\",\n        \"mass\": 733400,\n        \"payload\": {\n            \"description\": \"test\",\n            \"weight\": 912\n        },\n        \"telemetry\": {\n            \"host\": \"0.0.0.0\",\n            \"port\": 4004\n        },\n        \"status\": \"deployed\",\n        \"timestamps\": {\n            \"launched\": null,\n            \"deployed\": null\n        },\n        \"altitude\": 0,\n        \"speed\": 0,\n        \"acceleration\": 0,\n        \"thrust\": 12558577,\n        \"temperature\": 0\n    },\n    {\n        \"id\": \"5SzNqcutXW\",\n        \"model\": \"Saturn 1B\",\n        \"mass\": 0,\n        \"payload\": {\n            \"description\": \"test\",\n            \"weight\": 1251\n        },\n        \"telemetry\": {\n            \"host\": \"0.0.0.0\",\n            \"port\": 4005\n        },\n        \"status\": \"deployed\",\n        \"timestamps\": {\n            \"launched\": null,\n            \"deployed\": null\n        },\n        \"altitude\": 0,\n        \"speed\": 0,\n        \"acceleration\": 0,\n        \"thrust\": 1033100,\n        \"temperature\": 0\n    },\n    {\n        \"id\": \"J3HK7JFvHa\",\n        \"model\": \"Vulcan\",\n        \"mass\": 546700,\n        \"payload\": {\n            \"description\": \"test\",\n            \"weight\": 845\n        },\n        \"telemetry\": {\n            \"host\": \"0.0.0.0\",\n            \"port\": 4006\n        },\n        \"status\": \"deployed\",\n        \"timestamps\": {\n            \"launched\": null,\n            \"deployed\": null\n        },\n        \"altitude\": 0,\n        \"speed\": 0,\n        \"acceleration\": 0,\n        \"thrust\": 8400000,\n        \"temperature\": 0\n    },\n    {\n        \"id\": \"FvxKSGLkVC\",\n        \"model\": \"Energia\",\n        \"mass\": 2400000,\n        \"payload\": {\n            \"description\": \"test\",\n            \"weight\": 647\n        },\n        \"telemetry\": {\n            \"host\": \"0.0.0.0\",\n            \"port\": 4007\n        },\n        \"status\": \"deployed\",\n        \"timestamps\": {\n            \"launched\": null,\n            \"deployed\": null\n        },\n        \"altitude\": 0,\n        \"speed\": 0,\n        \"acceleration\": 0,\n        \"thrust\": 89620000,\n        \"temperature\": 0\n    },\n    {\n        \"id\": \"FwXALuZnPb\",\n        \"model\": \"Long March 3B\",\n        \"mass\": 425800,\n        \"payload\": {\n            \"description\": \"test\",\n            \"weight\": 984\n        },\n        \"telemetry\": {\n            \"host\": \"0.0.0.0\",\n            \"port\": 4008\n        },\n        \"status\": \"deployed\",\n        \"timestamps\": {\n            \"launched\": null,\n            \"deployed\": null\n        },\n        \"altitude\": 0,\n        \"speed\": 0,\n        \"acceleration\": 0,\n        \"thrust\": 7404000,\n        \"temperature\": 0\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "Launch Rocket",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/rocket/DSSvW7VLmb/status/launched",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"rocket",
+						"DSSvW7VLmb",
+						"status",
+						"launched"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Launch Rocket",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "x-api-key",
+								"value": "API_KEY_1",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{url}}/rocket/DSSvW7VLmb/status/launched",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"rocket",
+								"DSSvW7VLmb",
+								"status",
+								"launched"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": null,
+					"cookie": [],
+					"body": "{\n    \"id\": \"DSSvW7VLmb\",\n    \"model\": \"Saturn V\",\n    \"mass\": 2970000,\n    \"payload\": {\n        \"description\": \"test\",\n        \"weight\": 1542\n    },\n    \"telemetry\": {\n        \"host\": \"127.0.0.1\",\n        \"port\": 4000\n    },\n    \"status\": \"launched\",\n    \"timestamps\": {\n        \"launched\": \"2021-10-04T16:14:14.372187\",\n        \"deployed\": null\n    },\n    \"altitude\": 0,\n    \"speed\": 0,\n    \"acceleration\": 0,\n    \"thrust\": 35100000,\n    \"temperature\": 0\n}"
+				}
+			]
+		},
+		{
+			"name": "Deploy Rocket",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/rocket/FvxKSGLkVC/status/deployed",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"rocket",
+						"FvxKSGLkVC",
+						"status",
+						"deployed"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Deploy Rocket",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "x-api-key",
+								"value": "API_KEY_1",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{url}}/rocket/DSSvW7VLmb/status/deployed",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"rocket",
+								"DSSvW7VLmb",
+								"status",
+								"deployed"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": null,
+					"cookie": [],
+					"body": "{\n    \"id\": \"DSSvW7VLmb\",\n    \"model\": \"Saturn V\",\n    \"mass\": 2970000,\n    \"payload\": {\n        \"description\": \"test\",\n        \"weight\": 1542\n    },\n    \"telemetry\": {\n        \"host\": \"127.0.0.1\",\n        \"port\": 4000\n    },\n    \"status\": \"launched\",\n    \"timestamps\": {\n        \"launched\": \"2021-10-04T16:14:14.372187\",\n        \"deployed\": null\n    },\n    \"altitude\": 0,\n    \"speed\": 0,\n    \"acceleration\": 0,\n    \"thrust\": 35100000,\n    \"temperature\": 0\n}"
+				}
+			]
+		},
+		{
+			"name": "Cancel Launch",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/rocket/DSSvW7VLmb/status/launched",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"rocket",
+						"DSSvW7VLmb",
+						"status",
+						"launched"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Cancel Launch",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "x-api-key",
+								"value": "API_KEY_1",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{url}}/rocket/DSSvW7VLmb/status/launched",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"rocket",
+								"DSSvW7VLmb",
+								"status",
+								"launched"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": null,
+					"cookie": [],
+					"body": "{\n    \"id\": \"DSSvW7VLmb\",\n    \"model\": \"Saturn V\",\n    \"mass\": 2970000,\n    \"payload\": {\n        \"description\": \"test\",\n        \"weight\": 1542\n    },\n    \"telemetry\": {\n        \"host\": \"127.0.0.1\",\n        \"port\": 4000\n    },\n    \"status\": \"launched\",\n    \"timestamps\": {\n        \"launched\": \"2021-10-04T16:14:14.372187\",\n        \"deployed\": null\n    },\n    \"altitude\": 0,\n    \"speed\": 0,\n    \"acceleration\": 0,\n    \"thrust\": 35100000,\n    \"temperature\": 0\n}"
+				}
+			]
+		},
+		{
+			"name": "Weather",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/weather",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"weather"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Weather",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-api-key",
+								"value": "API_KEY_1",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{url}}/weather",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"weather"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": null,
+					"cookie": [],
+					"body": "{\n    \"temperature\": 42.0229255183616,\n    \"humidity\": 0.4970071414227859,\n    \"pressure\": 961.4707199009634,\n    \"precipitation\": {\n        \"probability\": 0.13461540072610725,\n        \"rain\": false,\n        \"snow\": true,\n        \"sleet\": true,\n        \"hail\": false\n    },\n    \"wind\": {\n        \"direction\": \"SE\",\n        \"angle\": 35.925417693701625,\n        \"speed\": 15.46592789738812\n    },\n    \"time\": \"2021-10-04T16:13:43.001785\"\n}"
+				}
+			]
+		}
+	],
+	"auth": {
+		"type": "apikey",
+		"apikey": [
+			{
+				"key": "value",
+				"value": "API_KEY_1",
+				"type": "string"
+			},
+			{
+				"key": "key",
+				"value": "X-API-Key",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}

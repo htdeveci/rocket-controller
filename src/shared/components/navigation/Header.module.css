@@ -1,0 +1,19 @@
+.header {
+  background-color: rgb(10, 88, 134);
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.homeLink {
+  font-size: 3.2em;
+  margin: 16px;
+  text-decoration: none;
+  color: rgb(180, 228, 255);
+  transition: color 0.5s;
+  text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.404);
+}
+
+.homeLink:hover {
+  color: white;
+}

@@ -1,0 +1,43 @@
+.button {
+  background: none;
+  border: 5px solid rgb(29, 108, 182);
+  color: rgb(29, 108, 182);
+  border-radius: 40px;
+  font-size: 1.2em;
+  padding: 0.4em 1em;
+  transition-property: background-color, color, border-color;
+  transition: 0.25s;
+  cursor: pointer;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.button:hover {
+  background-color: rgb(29, 108, 182);
+  color: white;
+  border-color: rgb(38, 137, 230);
+}
+
+.button:disabled {
+  background-color: #555555;
+  border-color: #353535;
+  color: #b8b8b8;
+  cursor: default;
+}
+
+.progress {
+  background-color: rgb(29, 108, 182);
+  height: 0.2em;
+  width: 4em;
+}
+
+progress::-webkit-progress-bar {
+  background-color: rgb(108, 180, 247);
+}
+
+.progress::-webkit-progress-value {
+  background-color: rgb(29, 108, 182);
+}
